@@ -1,0 +1,88 @@
+/* Container fills the viewport and centers form */
+.login-container {
+  background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Form card */
+.login-form {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Heading */
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Input labels */
+.login-form label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+  text-align: left;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.login-button {
+  width: 100%;
+  padding: 0.85rem;
+  margin-top: 0.5rem;
+  background: #4A00E0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.login-button:hover {
+  background: #3a00b0;
+}
+
+/* Signup link */
+.signup-link {
+  margin-top: 1rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+.signup-link a {
+  color: #4A00E0;
+  text-decoration: none;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.login-error {
+  background: #ffe5e5;
+  color: #c33;
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
