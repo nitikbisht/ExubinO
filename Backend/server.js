@@ -10,6 +10,9 @@ const { verifyToken } = require('./middleware/auth');
 
 app.use(express.json());
 app.use(cors());
+app.get('/api/hello', (req, res) => {
+  res.json({ message: 'Hello from the backend!' });
+});
 app.use('/api/auth', authRoutes);
 app.use('/api/courses', verifyToken, coursesRoutes);
 app.use('/api/questions', verifyToken, questionsRoutes);
